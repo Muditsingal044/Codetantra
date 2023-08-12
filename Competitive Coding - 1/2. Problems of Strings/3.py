@@ -1,3 +1,4 @@
+import sys
 s = sys.argv[1]
 l = int(sys.argv[2])
 
