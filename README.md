@@ -1,5 +1,5 @@
 <img src="https://www.codetantra.com/img/logo-black-text-600x93.jpg" alt="">
-Essay way to solve problems
+Easy way to solve problems
 
 <hr>
 
