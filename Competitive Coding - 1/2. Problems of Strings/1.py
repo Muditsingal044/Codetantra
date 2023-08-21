@@ -6,7 +6,7 @@ def getFirstSubString(s, l):
   l1=0
   for i in range(l):
     try:
-      s1+=s[l]
+      s1+=s[l1]
       l1=l1+2
     except:
       return 'NotFound'
