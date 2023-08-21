@@ -3,7 +3,7 @@ s = sys.argv[1]
 
 
 def isPrimeLengthPalidroms(s):
-  c = 0
+  f = 0
   a = len(s)
   for i in range(2,a):
     if a%i==0:
