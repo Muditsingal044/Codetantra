@@ -37,7 +37,7 @@ void main(){
 	int i, j, v, s, des;
 	char ch;
 	printf("Enter number of vertices: ");
-	scanf("%d", & v);
+	scanf("%d", &v);
 	printf("Enter the weight matrix");
 	for (i = 1; i <= v; i++){
 		for (j = 1; j <= v; j++){
@@ -48,7 +48,7 @@ void main(){
 			}
 			printf("Is edge (%d,%d) present in graph (y/n): ", i, j);
 			fflush(stdin);
-			scanf("%c", & ch);
+			scanf("%c", &ch);
 			if (ch == 'y' || ch == 'Y'){
 				printf("Enter weight of edge (%d,%d): ", i, j);
 				scanf("%d", & w[i][j]);
@@ -63,7 +63,7 @@ void main(){
 	}
 	warshall(v);
 	printf("Enter source and destination: ");
-	scanf("%d %d", & s, & des);
+	scanf("%d %d", &s, &des);
 	printf("Distance = %d", d[s][des]);
 	print_path(s, des);
 }
