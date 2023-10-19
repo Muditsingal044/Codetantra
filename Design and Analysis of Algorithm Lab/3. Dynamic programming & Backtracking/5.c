@@ -6,7 +6,7 @@ int main(){
 	  int n, i, j;
 	  void queen(int row, int n);
 	  printf("Enter number of Queens: ");
-	  scanf("%d", & n);
+	  scanf("%d", &n);
 	  queen(1, n);
 	  return 0;
 }
