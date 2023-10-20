@@ -1,7 +1,7 @@
 <h1> NIET CODETANTRA SOLUTION </h1>
 
 <img src="https://www.codetantra.com/img/logo-black-text-600x93.jpg" alt="">
-Codetantra Solutions
+Codetantra Solutions in easy way
 
 <hr>
 
