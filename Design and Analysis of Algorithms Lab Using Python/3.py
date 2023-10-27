@@ -4,7 +4,7 @@ def insert_sort(A):
     j = i-1
     while j>=0 and key < A[j]:
       A[j+1] = A[j]
-      j = i-1
+      j = j-1
     A[j+1] = key 
     
 n = int(input())
