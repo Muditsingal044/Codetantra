@@ -17,6 +17,4 @@ n = int(input())
 arr = list(map(int, input().split()))
 
 arr = counting_sort(arr)
-
-for num in arr:
-	    print(num, end=' ')
+print(*arr,' ')
