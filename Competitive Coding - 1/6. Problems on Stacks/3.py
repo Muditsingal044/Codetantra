@@ -11,10 +11,10 @@ def evaluate(expr):
         s.pop(0)
         op2 = s[0]
         s.pop(0)
-        if i in "+-/*":
+        if i in "*/":
             if "+" in op2 or "-" in op2:
                 if '+' in op1 or '-' in op1:
-                    s.insert(0,'('+op2+')' +i+' ('+op1+')')
+                    s.insert(0,'('+op2+') ' +i+' ('+op1+')')
                 else:
                     s.insert(0,'('+op2+') '+i+" "+op1)
             elif '+' in op1 or '-' in op1:
