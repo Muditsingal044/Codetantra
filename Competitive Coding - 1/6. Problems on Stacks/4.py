@@ -1,6 +1,7 @@
 import sys
 expr = sys.argv[1]
 
+#def evaluate(expr):
 def get(c):
     if c=='-' or c=='+':
         return 1
