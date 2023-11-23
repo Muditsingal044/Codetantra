@@ -20,7 +20,7 @@ def evaluate(expr):
             elif '+' in op1 or '-' in op1:
                     s.insert(0,op2+' '+i' ('+op1+')')
             else:
-                    s.insert(0,op2,' '+i+' '+op1)
+                    s.insert(0,op2+' '+i+' '+op1)
         else:
             s.insert(0,op2+' '+i+' '+op1)
 
